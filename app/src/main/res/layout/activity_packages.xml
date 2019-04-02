@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PackagesActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photobooth_background" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:text="60"
+        android:textColor="#f7f7f7"
+        android:textSize="42sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Select Combo Package"
+        android:textColor="#f7f7f7"
+        android:textSize="30sp" />
+
+    <!--<RelativeLayout-->
+    <!--android:id="@+id/combo_container"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true">-->
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:id="@+id/package1"-->
+    <!--android:layout_width="@dimen/phone_card_width_height"-->
+    <!--android:layout_height="@dimen/phone_card_width_height"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentLeft="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_margin="8dp"-->
+    <!--app:cardCornerRadius="16dp">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/rush_id" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:background="@drawable/card_gradient_black"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="Combo 1"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="22sp" />-->
+    <!--</RelativeLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:id="@+id/package2"-->
+    <!--android:layout_width="@dimen/phone_card_width_height"-->
+    <!--android:layout_height="@dimen/phone_card_width_height"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_margin="8dp"-->
+    <!--android:layout_toRightOf="@id/package1"-->
+    <!--app:cardCornerRadius="16dp">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/rush_id" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:background="@drawable/card_gradient_black"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="Combo 2"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="22sp" />-->
+    <!--</RelativeLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:id="@+id/package3"-->
+    <!--android:layout_below="@id/package1"-->
+    <!--android:layout_width="@dimen/phone_card_width_height"-->
+    <!--android:layout_height="@dimen/phone_card_width_height"-->
+    <!--android:layout_margin="8dp"-->
+    <!--app:cardCornerRadius="16dp">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/rush_id" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:background="@drawable/card_gradient_black"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="Combo 3"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="22sp" />-->
+    <!--</RelativeLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <!--<androidx.cardview.widget.CardView-->
+    <!--android:id="@+id/package4"-->
+    <!--android:layout_toRightOf="@id/package3"-->
+    <!--android:layout_below="@id/package2"-->
+    <!--android:layout_width="@dimen/phone_card_width_height"-->
+    <!--android:layout_height="@dimen/phone_card_width_height"-->
+    <!--android:layout_margin="8dp"-->
+    <!--app:cardCornerRadius="16dp">-->
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:scaleType="centerCrop"-->
+    <!--android:src="@drawable/rush_id" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:background="@drawable/card_gradient_black"-->
+    <!--android:padding="16dp"-->
+    <!--android:text="Combo 4"-->
+    <!--android:textAlignment="center"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="22sp" />-->
+    <!--</RelativeLayout>-->
+    <!--</androidx.cardview.widget.CardView>-->
+
+    <!--</RelativeLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/package1"
+            android:layout_width="@dimen/phone_card_width_height_rush_id"
+            android:layout_height="@dimen/phone_card_width_height_rush_id"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rush_id" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/card_gradient_black"
+                    android:padding="16dp"
+                    android:text="Combo 1"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/package2"
+            android:layout_width="@dimen/phone_card_width_height_rush_id"
+            android:layout_height="@dimen/phone_card_width_height_rush_id"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rush_id" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/card_gradient_black"
+                    android:padding="16dp"
+                    android:text="Combo 2"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/package3"
+            android:layout_width="@dimen/phone_card_width_height_rush_id"
+            android:layout_height="@dimen/phone_card_width_height_rush_id"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/rush_id" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/card_gradient_black"
+                    android:padding="16dp"
+                    android:text="Combo 3"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
